@@ -1,8 +1,7 @@
 
 ```bash
-# Alacritty themes
-mkdir -p ~/.config/alacritty/themes
-git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
+# Initialize submodules (Neovim and Alacritty themes)
+git submodule update --init --recursive
 
 # clangd install
 sudo apt install clangd-22

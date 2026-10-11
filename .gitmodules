@@ -1,3 +1,7 @@
 [submodule "nvim"]
 	path = nvim
 	url = git@github.com:cloudyy74/kickstart.nvim.git
+
+[submodule "alacritty-themes"]
+	path = alacritty/themes
+	url = https://github.com/alacritty/alacritty-theme.git
